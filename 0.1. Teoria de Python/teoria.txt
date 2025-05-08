@@ -60,3 +60,28 @@ no numeros como primera palabra ni caracteres especiales al principio.
 
 
 12. Python diferencia entre mayusculas y minusculas. Sabe que es var1 y Var1 son diferentes. Se le llama 'Case Sensitive'.
+
+
+13. Los Operadores Aritmeticos
+
+Suma: +
+Resta: -
+Division: /
+Division entera: // --> Obtiene el cociente de una division entre dos valores
+Modulo: % --> Obtiene el residuo de una division entre dos valores
+Potenciacion: ** --> Obtiene el resultado de elevar un numero a una potencia
+
+
+14. Tipos de Datos
+
+Tipo            Identificador       Descripcion                             Ejemplo
+
+Entero          int                 Numero sin punto decimal                21  
+Entero largo    int                 Numero sin punto decimal largo          789552512204
+Reales          float               Numero con punto decimal                117.89
+Complejos       complex             Numero con parte real e imaginaria      17 + 78j
+Cadenas         str                 Conjunto de caracteres                  "Vladimir"
+Booleanos       bool                Verdadero o falso                       True, False
+
+
+15. 'INPUT' permite el ingreso de entrada de datos por el usuario.
