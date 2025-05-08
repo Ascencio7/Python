@@ -1,0 +1,62 @@
+1. Que es Python
+
+Python es un lenguaje de programación de alto nivel, interpretado, de propósito general y de código abierto, 
+creado por Guido van Rossum en 1991. Se caracteriza por su sintaxis legible y fácil de aprender, que 
+facilita la creación de programas y la resolución de problemas. 
+
+
+2. Que significa que sea interpretado
+
+Significa que cada codigo python se ejecutan en tiempo real y se revisan en tiempo de ejecucion cada linea de codigo.
+
+
+3. Que significa que tenga tipado dinamico
+
+Significa que los datos se pueden usar sin ser especificados anteriormente.
+
+
+4. Que significa que sea multiplataforma
+
+Que todo programa hecho en Python se puede ejecutar en sistemas Windows, Mac o Linux.
+
+
+5. Que significa que sea multiparadigma
+
+Que todo programa con Python se puede hacer con enfoques de la programacion diferentes, POO, POE, etc.
+
+
+6. Que es un programa
+
+Es un conjunto de instrucciones entendibles y ejecutables por un computador que logra un objetivo determinado.
+
+
+7. Que es un codigo fuente
+
+Es el programa que nosotros, como programadores, escribimos.
+
+
+8. Que es un archivo ejecutable
+
+Es un archivo que contiene instrucciones para que una computadora ejecute un programa. Al hacer doble clic en un archivo ejecutable, 
+el sistema operativo lo interpreta y ejecuta las instrucciones que contiene. Los archivos ejecutables suelen tener extensiones 
+como .exe en Windows, pero existen muchos otros formatos. 
+
+
+9. Que es interprete
+
+Es un programa que va evaluando otro programa en la medida en que va ejecutando linea por linea.
+
+
+10. Que es un compilador
+
+Es un programa que revisa a otro programa para ver si este ultimo quedo bien escrito segun las reglas sintacticas de un
+lenguaje de programacion.
+
+
+11. Que es una variable
+
+Es un espacio de memoria donde se puede guardar un dato. Se identifican con un nombre especifico. No deben tener espacios en blanco, 
+no numeros como primera palabra ni caracteres especiales al principio. 
+
+
+12. Python diferencia entre mayusculas y minusculas. Sabe que es var1 y Var1 son diferentes. Se le llama 'Case Sensitive'.

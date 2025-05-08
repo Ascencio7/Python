@@ -1,0 +1,90 @@
+🧠 FASE 1: Fundamentos Básicos (1-2 semanas)
+Objetivo: Familiarizarte con la sintaxis y lógica de Python.
+
+Temas:
+Instalación de Python y uso de IDLE / VS Code
+
+Variables, tipos de datos (int, float, str, bool)
+
+Operadores aritméticos y lógicos
+
+Condicionales (if, elif, else)
+
+Bucles (for, while)
+
+Funciones (def, argumentos, return)
+
+Listas y diccionarios (acceso, modificación, métodos básicos)
+
+Actividades:
+✅ Crea un menú simple con opciones
+✅ Calculadora básica
+✅ Juego del número secreto
+✅ Conversor de unidades (metros a pies, °C a °F, etc.)
+
+🔧 FASE 2: Nivel Intermedio (2-3 semanas)
+Objetivo: Dominar estructuras de datos y modularidad.
+
+Temas:
+Funciones con múltiples parámetros
+
+Manejo de errores con try, except
+
+Archivos (open, lectura/escritura .txt)
+
+Módulos (import, creación de módulos propios)
+
+Comprensión de listas ([x for x in lista if ...])
+
+Tuplas y sets
+
+Uso de input() para interacción
+
+Actividades:
+✅ Lector y buscador en un archivo .txt
+✅ Agenda de contactos en consola
+✅ Módulo de utilidades matemáticas
+✅ Juego de adivinanza con puntaje guardado
+
+🧪 FASE 3: Proyectos Prácticos (3-4 semanas)
+Objetivo: Aplicar lo aprendido en mini proyectos reales.
+
+Proyectos sugeridos:
+CRUD de tareas con archivos .txt o .json
+
+Generador de contraseñas aleatorias
+
+Simulador de renta de vehículos (en consola, como tu proyecto académico)
+
+Gestor de gastos personales
+
+Opcional: Aprende tkinter para hacer una interfaz gráfica simple.
+
+🚀 FASE 4: Avanzado y Especialización (según tu interés)
+Objetivo: Aprender librerías especializadas y conectar con tu campo.
+
+Rutas opcionales:
+🧩 Automatización:
+Librerías: os, shutil, time, schedule, pyautogui
+
+🌐 Web (backend):
+Flask o Django
+
+Templates HTML con Jinja2
+
+CRUD con SQLite o PostgreSQL
+
+📊 Datos:
+pandas, matplotlib, numpy
+
+🤖 Inteligencia Artificial:
+scikit-learn, tensorflow (más adelante)
+
+🛠️ Herramientas recomendadas:
+Editor: VS Code o PyCharm Community
+
+Terminal: CMD, PowerShell o WSL
+
+Repositorio: GitHub para tus proyectos
+
+PythonAnywhere o Replit si quieres probar en la nube
