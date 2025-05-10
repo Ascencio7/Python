@@ -86,7 +86,7 @@ else:
 
 
 
-# 8. Construir un programa que lea un numero entero y determine si el resultado de sumar sus dos ultimos digitos es un numero de 1 digito.
+# 8. Construir un programa que lea un numero entero y determine si el resultado de sumar sus dos ultimos digitos es un numero de 1 digito. GPT
 print("\n8. Construir un programa que lea un numero entero y determine si el resultado de sumar sus dos ultimos digitos es un numero de 1 digito.")
 
 # Declarar la variable y pedir el numero
@@ -123,7 +123,7 @@ else:
 
 
 # 10. Construir un programa que lea dos numeros enteros y determine si el ultimo digito del 1° numero leido es par, y al mismo tiempo
-# si el penultimo digito del 2° numero es impar.
+# si el penultimo digito del 2° numero es impar. GPT
 print("\n10. Construir un programa que lea dos numeros enteros y determine si el ultimo digito del 1° numero leido es par, y al mismo tiempo si el penultimo digito del 2° numero es impar.")
 
 # Declarar las variables y pedir los numeros
