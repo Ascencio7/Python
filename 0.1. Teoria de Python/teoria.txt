@@ -85,3 +85,12 @@ Booleanos       bool                Verdadero o falso                       True
 
 
 15. 'INPUT' permite el ingreso de entrada de datos por el usuario.
+
+
+16. Los operadores Logicos:
+
+Operador        Descripcion
+
+and             Genera Verdadero en caso de que las dos condiciones que conecta sean Verdaderas.
+or              Genera Verdaderi si al menos UNA DE LAS CONDICIONES que conecta sea Verdadera.
+not             Invierte el sentido logico de la expresion, si es Verdadera lo devuelve Falso, y si es Falso es Verdadero.
