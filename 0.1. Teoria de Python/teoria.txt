@@ -94,3 +94,52 @@ Operador        Descripcion
 and             Genera Verdadero en caso de que las dos condiciones que conecta sean Verdaderas.
 or              Genera Verdaderi si al menos UNA DE LAS CONDICIONES que conecta sea Verdadera.
 not             Invierte el sentido logico de la expresion, si es Verdadera lo devuelve Falso, y si es Falso es Verdadero.
+
+
+17. Algoritmos
+
+Son una secuencia de instrucciones secuenciales y ordenados que permiten lograr un objetivo. 
+
+
+18. Partes de un Algoritmos
+
+Input: Es el ingreso de los datos que el algoritmo necesita operar
+Proceso: Se trata de la operacion logica formal que el algoritmo emprendera con lo recibido del Input
+Salida/Output: Los resultados obtenidos del proceso sobre el Input, una vez terminada la ejecucion del algoritmo
+
+
+19. Tipos de Algoritmos
+
+Existen 4 tipos de algoritmos en informatica:
+
+    1. Algoritmo Computacional: Cuya resolución depende del calculo, y que puede ser desarrollado por una computadora sin dificultades.
+
+    2. Algoritmo No Computacional: Aquellos que no requieren de los procesos de un computador para resolverse, o cuyos pasos son exclusivos para humanos.
+
+    3. Algoritmo Cualitativo: Se trata de un algoritmo en cuya resolucion no intervienen calculos numericos, sino secuencias logicas y formales.
+
+    4. Algoritmo Cuantitativo: Es un algoritmo que depende de calculos matematicos para dar con su resolucion.
+
+
+20. Pseudo Codigo
+
+Es una descripcion de alto nivel (lenguaje humano) de un algoritmo que emplea una mezcla de lenguaje natural con algunas convenciones de lenguajes de
+programacion, como asignaciones, ciclos y condicionales, aunque no esta regido por ningun estandar. 
+
+
+21. Fases del Pseudo Codigo
+
+    1. Fase Inicio
+    2. Declaracion de variables o constantes
+    3. Inicializacion de variables o constantes
+    4. Entradas
+    5. Calculos
+    6. Salidas
+    7. Fin
+
+
+22. Diagramas de Flujo o Flujogramas
+
+Son descripciones graficas de los algoritmos. Usan simbolos conectados con flechas para indicar la secuencia de instrucciones. Son usados para 
+representar algoritmos pequeños, ya que abarcan mucho espacio y su construccion es laboriosa. Por su facilidad de lectura son usados como
+introduccion a los algoritmos, descripcion de un lenguaje y descripcion de procesos a personas ajenas a la computacion.
