@@ -143,3 +143,8 @@ programacion, como asignaciones, ciclos y condicionales, aunque no esta regido p
 Son descripciones graficas de los algoritmos. Usan simbolos conectados con flechas para indicar la secuencia de instrucciones. Son usados para 
 representar algoritmos pequeños, ya que abarcan mucho espacio y su construccion es laboriosa. Por su facilidad de lectura son usados como
 introduccion a los algoritmos, descripcion de un lenguaje y descripcion de procesos a personas ajenas a la computacion.
+
+
+23. Sentencias repetitivas
+
+Es una instruccion que permite que un conjunto de instrucciones se repita una cantidad de veces determinada. Existen dos sentencias 'for' y 'while'.
