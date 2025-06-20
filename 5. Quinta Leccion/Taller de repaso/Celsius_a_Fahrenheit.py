@@ -1,5 +1,5 @@
 """ 
-    Imagina que deseas convertir una temperatura dada en grados Celsius a grados Fahrenheit. 
+    Se deseas convertir una temperatura dada en grados Celsius a grados Fahrenheit. 
     
         1. Solicita al usuario que ingrese una temperatura en grados Celsius.
 

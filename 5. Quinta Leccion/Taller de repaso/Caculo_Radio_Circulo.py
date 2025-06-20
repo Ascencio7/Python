@@ -1,5 +1,5 @@
 """ 
-    Imagina que deseas calcular el área de un círculo dado su radio. Tu tarea es crear un programa que realice este cálculo.
+    Se desea calcular el área de un círculo dado su radio.
 """
 
 from math import pi # importar solo la libreria necesario de pi

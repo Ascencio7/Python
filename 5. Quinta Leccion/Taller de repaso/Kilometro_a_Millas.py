@@ -1,5 +1,5 @@
 """ 
-    Imagina que deseas convertir una distancia dada en kilómetros a millas.
+    Se desea convertir una distancia dada en kilómetros a millas.
 """
 # funcion para calcular las millas
 def kmAMillas(kilometros):
