@@ -1,6 +1,5 @@
 """
     Imagina que tienes un automóvil que consume una cierta cantidad de gasolina por cada 100 kilómetros recorridos. 
-    Tu tarea es crear un programa que calcule el gasto total de gasolina para un viaje dado.
     
     Ejemplo de entrada/salida:
 
