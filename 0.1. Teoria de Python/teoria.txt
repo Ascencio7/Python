@@ -148,3 +148,16 @@ introduccion a los algoritmos, descripcion de un lenguaje y descripcion de proce
 23. Sentencias repetitivas
 
 Es una instruccion que permite que un conjunto de instrucciones se repita una cantidad de veces determinada. Existen dos sentencias 'for' y 'while'.
+
+
+24. Funciones
+
+Es un conjunto breve de instrucciones que permiten alcanzar facilmente un pequeño objetivo. Las funciones son la base para resolver los tres grandes problemas
+de la programacion:
+
+    a) La reutilizacion del codigo
+    b) La simplificacion del objetivo 
+    c) La facilidad para realizar las pruebas en frio.
+
+Con las funciones se hace efectiva la estrategia 'Divide y Venceras' que es una manera de hacer que los programas, por complejos que parezcan, sean mas faciles de
+entender y, sobre todo, mas faciles de corregir.
