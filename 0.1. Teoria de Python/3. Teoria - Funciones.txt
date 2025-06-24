@@ -1,0 +1,95 @@
+1. print()                                  Muestra texto o variables en la consola
+
+2. input()                                  Permite la entrada de datos desde la consola
+
+3. len()                                    Devuelve la cantidad de elementos
+
+4. type()                                   Devuelve el tipo de dato
+
+5. range()                                  Genera una secuencia de números en un rango
+
+6. int(), float(), str()                    Convierte a entero, coma flotante o cadena
+
+7. list(), tuple(), set(), dict()           Crea listas, tuplas, conjuntos o diccionarios
+
+8. sum()                                    Suma los elementos iterables
+
+9. min(), max()                             Encuentra el mínimo o el máximo en iterables
+
+10. sorted()                                Ordena elementos en listas y otros iterables
+
+11. abs()                                   Retorna el valor absoluto de un número
+
+12. round()                                 Redondea a un número con decimales concretos
+
+13. map()                                   Aplica una función a cada elemento iterado
+
+14. filter()                                Filtra elementos iterables según una condición
+
+15. reduce()                                Aplica una función a los elementos iterables para reducirlos a un único valor
+
+16. enumerate()                             Agrega un índice a cada elemento iterable
+
+17. zip()                                   Une iterables en pares de elementos
+
+18. open()                                  Abre un archivo para leer, escribir o modificar
+
+19. isinstance()                            Comprueba si una variable es de un tipo concreto
+
+20. issubclass()                            Comprueba relaciones entre clases
+
+21. hasattr()                               Verifica si un objeto tiene un atributo
+
+22. getattr()                               Obtiene el valor de un atributo
+
+23. setattr()                               Asigna un valor a un atributo
+
+24. delattr()                               Elimina un atributo de un objeto
+
+25. help()                                  Muestra la documentación de un objeto o módulo
+
+26. id()                                    Devuelve la identidad única en memoria
+
+26. next()                                  Retorna el siguiente valor de un iterador
+
+27. iter()                                  Transforma un iterable en un iterador
+
+28. chr(), ord()                            Trabaja con valores Unicode de caracteres
+
+29. bin(), oct(), hex()                     Convierte números enteros a diferentes bases
+
+30. any(), all()                            Evalúa condiciones en iterables para al menos uno o todos los elementos
+
+31. pow()                                   Calcula una potencia
+
+32. divmod()                                Retorna el cociente y el resto de una división
+
+33. copy()                                  Crea una copia superficial de un objeto
+
+34. eval()                                  Ejecuta una expresión en forma de string
+
+35. exec()                                  Ejecuta un bloque de código en forma de string
+
+36. format()                                Formatea cadenas con valores personalizados
+
+37. reversed()                              Invierte el orden de un iterable
+
+38. slice()                                 Crea una porción de un iterable sin modificarlo
+
+39. callable()                              Verifica si es invocable como una función
+
+40. dir()                                   Muestra los atributos y métodos de un objeto
+
+41. frozenset()                             Crea un conjunto inmutable
+
+42. complex()                               Crea números complejos
+
+43. bool()                                  Transforma un valor en booleano
+
+44. super()                                 Retorna un proxy que delega en la superclase
+
+45. bin()                                   Crea la representación binaria de un número
+
+46. globals()                               Retorna las variables globales
+
+47. locals()                                Retorna las variables locales

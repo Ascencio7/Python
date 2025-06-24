@@ -1,0 +1,77 @@
+1 --> Listas (list)
+
+    1. append()         Agrega un elemento al final                                 lista.append(valor)
+
+    2. extend()         Agrega múltiples elementos                                  lista.extend(iterable)
+
+    3. insert()         Inserta un elemento en un índice                            lista.insert(i, valor)
+
+    4. remove()         Elimina la primera ocurrencia de un valor                   lista.remove(valor)
+
+    5. pop()            Elimina y devuelve un elemento (por índice o último)        lista.pop(i) lista.pop()
+
+    6. index()          Devuelve el índice de un valor                              lista.index(valor)
+
+    7. count()          Cuenta las ocurrencias de un valor                          lista.count(valor)
+
+    8. sort()           Ordena la lista                                             lista.sort()
+
+    9. reverse()        Invierte el orden de la lista                               lista.reverse()
+
+    10. copy()          Crea una copia de la lista                                  lista.copy()
+
+    11. clear()         Elimina todos los elementos                                 lista.clear()
+
+
+
+2 --> Tuplas (tuple)
+
+    1. count()          Cuenta las ocurrencias de un valor                          tupla.count(valor)
+
+    2. index()          Devuelve el índice de un valor                              tupla.index(valor)
+
+
+
+3 --> Conjuntos (set)
+
+    1. add()                    Agrega un elemento al conjunto                              conjunto.add(valor)
+
+    2. remove()                 Elimina un elemento (error si no existe)                    conjunto.remove(valor)
+
+    3. discard()                Elimina un elemento (sin error si no existe)                conjunto.discard(valor)
+
+    4. pop()                    Elimina y devuelve un elemento aleatorio                    conjunto.pop()
+
+    5. clear()                  Elimina todos los elementos                                 conjunto.clear()
+
+    6. union()                  Une dos conjuntos                                           conjunto.union(otro)
+
+    7. intersection()           Elementos comunes en ambos conjuntos                        conjunto.intersection(otro)
+
+    8. difference()             Elementos en A pero no en B                                 conjunto.difference(otro)
+
+    9. symmetric_difference()   Elementos no comunes en ambos conjunto                      symmetric_difference(otro)
+
+
+
+4 --> Diccionarios (dict)
+
+    1. keys()                   Devuelve las claves del diccionario                         diccionario.keys()
+
+    2. values()                 Devuelve los valores del diccionario                        diccionario.values()
+
+    3. items()                  Devuelve pares clave-valor                                  diccionario.items()
+
+    4. get()                    Obtiene el valor de una clave (sin error)                   diccionario.get(clave, defecto)
+
+    5. pop()                    Elimina y devuelve un valor                                 diccionario.pop(clave)
+
+    6. popitem()                Elimina y devuelve el último par clave-valor                diccionario.popitem()
+
+    7. update()                 Agrega o actualiza claves con valores                       diccionario.update(otro_dict)
+
+    8. setdefault()             Obtiene el valor o lo asigna si no existe                   diccionario.setdefault(clave, valor)
+
+    9. copy()                   Crea una copia del diccionario                              diccionario.copy()
+
+    10. clear()                 Elimina todos los elementos                                 diccionario.clear()

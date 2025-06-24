@@ -161,3 +161,102 @@ de la programacion:
 
 Con las funciones se hace efectiva la estrategia 'Divide y Venceras' que es una manera de hacer que los programas, por complejos que parezcan, sean mas faciles de
 entender y, sobre todo, mas faciles de corregir.
+
+
+25. Tipo de Dato: Byte
+
+Es una secuencia inmutable de bytes, cada uno representado por un entero entre 0 y 255. Representan los datos binarios, usados en redes, archivos o cuando
+se necesita trabajar con Datos no Textuales.
+
+    Ejemplo:
+
+                bytes([0, 200, 50, 25, 10, 255])
+
+
+26. Tipo de Dato: Nulo
+
+Representa la ausencia de un valor y es un objeto de tipo NoneType. No es lo mismo que 0, una cadena vacía, o False, ya que None es un tipo de dato único que no 
+representa ningún valor específico.
+
+    Ejemplo 1:
+
+            variable_nula = None
+            print(variable_nula)  # Output: None
+
+    Ejemplo 2:
+            
+            def funcion_sin_retorno():
+            pass  # Si no hay un return explícito, la función retorna None
+
+            resultado = funcion_sin_retorno()
+            print(resultado)  # Output: None
+
+    Ejemplo 3:
+
+            valor = None
+            if valor is None:
+                print("La variable es None")
+            else:
+                print("La variable no es None")
+
+
+27. Tipo de Dato: Conjunto Inmutable
+
+Es aquel que no puede ser modificado una vez creado. Una vez que se defina un objeto inmutable con un valor especifico, ese valor no puede cambiar. Si se intenta modificar
+un objeto inmutable, en realiadad se crea un nuevo objeto con el valor modificado en vez de alterar el original.
+
+    Ejemplo 1:
+
+            numero = 10
+            numero = numero + 5  # Se crea un nuevo objeto número con valor 15
+            print(numero)  # Salida: 15
+
+            cadena = "Hola"
+            # cadena[0] = "C"  # Esto generaría un error, ya que no se puede modificar directamente una cadena
+            nueva_cadena = "C" + cadena[1:] # Se crea una nueva cadena
+            print(nueva_cadena) # Salida: Cola
+
+            tupla = (1, 2, 3)
+            # tupla[0] = 4 # Esto generaría un error, ya que no se puede modificar una tupla
+            f_set = frozenset({1, 2, 3})
+            # f_set.add(4) # Esto generaría un error, ya que no se puede modificar un frozenset
+
+
+28. Tipo de Dato: Bytearray
+
+Es un objeto mutable que contiene una secuencia de bytes. A diferencia de ellos, que son inmutables, Bytearray permite modificar sus elementos. Se usa para trabajar con datos binarios donde 
+se necesita modificar la secuencia de bytes. 
+
+    Ejemplo 1: Modificacion de elementos
+
+            data = bytearray(b"hello")
+            data[0] = 72  # Modifica el primer byte (72 es la representación ASCII de 'H')
+            print(data)  # Output: bytearray(b'Hello')
+
+
+    Ejemplo 2: Anexion de datos
+
+            data = bytearray(b"hello")
+            data.extend(b" world")
+            print(data)  # Output: bytearray(b'hello world')
+
+
+29. Tipo de Dato: Memory view
+
+Permite acceder y manipular los datos internos de un objeto sin crear copias, lo que es util para grandes conjuntos de datos. Permite operar sobre la memoria subyacente de un objeto
+como una cadena o un array, sin la sobrecarga de duplicar los datos.
+
+    Ejemplo 1: Acceso a datos sin copia:
+    
+            texto = "Hola Mundo"
+            vista = memoryview(texto.encode('utf-8'))  # Codificar a bytes para usar memoryview
+            primer_byte = vista[0]
+            print(primer_byte)  # Imprime 72 (código ASCII de 'H')
+
+    Ejemplo 2:
+
+           import array
+           numeros = array.array('i', [1, 2, 3, 4, 5])
+           vista_numeros = memoryview(numeros)
+           vista_numeros[0] = 10  # Modifica el primer elemento del array
+           print(numeros)  # Imprime array('i', [10, 2, 3, 4, 5])

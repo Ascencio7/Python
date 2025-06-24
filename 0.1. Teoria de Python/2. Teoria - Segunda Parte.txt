@@ -1,0 +1,78 @@
+30. Operadores Bitwise
+
+En Python, los operadores bit a bit (bitwise) permiten manipular los bits individuales de números enteros. Son operaciones a nivel de bits que se realizan con 
+los valores binarios de los números. Los operadores bit a bit más comunes son: AND (&), OR (|), XOR (^), NOT (~), 
+desplazamiento a la izquierda (<<) y desplazamiento a la derecha (>>). 
+
+        Ejemplo 1: AND bit a bit (&): Devuelve 1 si ambos bits son 1, de lo contrario, devuelve 0. 
+        
+               a = 5  # En binario: 0101
+               b = 3  # En binario: 0011
+               resultado = a & b  # En binario: 0001, que es 1 en decimal
+               print(resultado)  # Salida: 1
+
+        Ejemplo 2: OR bit a bit (|): Devuelve 1 si alguno de los bits es 1, de lo contrario, devuelve 0. 
+
+               a = 5  # En binario: 0101
+               b = 3  # En binario: 0011
+               resultado = a | b  # En binario: 0111, que es 7 en decimal
+               print(resultado)  # Salida: 7
+
+        Ejemplo 3: XOR bit a bit (^): Devuelve 1 si los bits son diferentes, de lo contrario, devuelve 0. 
+
+               a = 5  # En binario: 0101
+               b = 3  # En binario: 0011
+               resultado = a ^ b  # En binario: 0110, que es 6 en decimal
+               print(resultado)  # Salida: 6
+
+        Ejemplo 4: NOT bit a bit (~): Invierte los bits (cambia 0 por 1 y 1 por 0). 
+
+               a = 5  # En binario: 0101
+               resultado = ~a  # En binario: 1010, que es -6 en decimal (en complemento a dos)
+               print(resultado)  # Salida: -6
+
+        Ejemplo 5: Desplazamiento a la izquierda (<<): Desplaza los bits a la izquierda, añadiendo ceros a la derecha. 
+
+               a = 5  # En binario: 0101
+               resultado = a << 2  # Desplaza 2 posiciones a la izquierda: 010100, que es 20 en decimal
+               print(resultado)  # Salida: 20
+
+
+        Ejemplo 6: Desplazamiento a la derecha (>>): Desplaza los bits a la derecha, manteniendo el signo (en algunos casos). 
+
+               a = 12  # En binario: 1100
+               resultado = a >> 2  # Desplaza 2 posiciones a la derecha: 0011, que es 3 en decimal
+               print(resultado)  # Salida: 3
+
+
+31. Condicional ternario
+
+Es una forma concisa de expresar una sentencia if-else en una sola linea. 
+
+    Ejemplo:
+
+        a = 1
+
+        if a == 1 else 'False'
+
+        b = 34
+
+        if b == 12 else 'True'
+
+
+32. Operador Walrus
+
+Es un operador de asignacion dentro de una expresion. Permite asignar un valor a una variable y usar ese valor en la misma linea, mejorando la ligibilidad del
+codigo en ciertas situaciones.
+
+    Ejemplo:
+
+        # Sin operador morsa
+        line = input("Ingrese algo: ")
+        while line != "":
+            print(f"Usted ingresó: {line}")
+            line = input("Ingrese algo: ")
+
+        # Con operador morsa
+        while (line := input("Ingrese algo: ")) != "":
+        print(f"Usted ingresó: {line}")
