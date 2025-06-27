@@ -1,0 +1,66 @@
+1. ¿Para qué se usa el caracter \ en cadenas en Python?
+
+Se llama carácter de escape. Se usa para representar caracteres especiales dentro de una cadena.
+
+Ejemplo:
+
+    print("Hola\nMundo")       # Salto de línea
+    print("C:\\Usuario\\Docs") # Imprime ruta con barras invertidas
+    print("Ella dijo: \"Hola\"") # Comillas dentro de comillas
+
+Otros ejemplos
+
+| Código | Significado             |
+| ------ | ----------------------- |
+| `\n`   | Salto de línea          |
+| `\t`   | Tabulación (tab)        |
+| `\\`   | Barra invertida literal |
+| `\"`   | Comilla doble           |
+| `\'`   | Comilla simple          |
+
+
+
+2. ¿Qué es un argumento en Python?
+
+Es un valor que se pasa a una función para que trabaje con él.
+
+Ejemplo:
+
+    def saludar(saludar):
+        print("Hola", nombre)
+
+saludar("Vladimir") # "Vladimir" es el argumento
+
+    * nombre --> Es el parámetro (la variable que espera la función)
+    * "Vladimir" --> Es el argumento (el valor que se pasa)
+
+
+
+3. ¿Cómo imprimir más de un argumento con print()?
+
+Se puede pasar con varios argumentos separados por comas.
+
+Ejemplo:
+
+    print("Hola", "Vladimir", "Edad", 21)
+
+La función print() separa los argumentos automáticamente con un espacio por defecto.
+
+
+4. ¿Cómo usar separadores en print() --> sep y end?
+
+SEP --> Se define el separador entre los argumentos
+
+Ejemplo:
+
+    print("2025", "06, "26", sep="-")
+
+        # salida --> 2025-06-26
+
+END --> Se define cómo termina la impresión (por defecto es \n, un salto de linea)
+
+Ejemplo:
+
+    print("Cargando", end="...")
+    print("Listo")
+    # Salida: Cargando ... Listo
