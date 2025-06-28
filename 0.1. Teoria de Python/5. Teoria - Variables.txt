@@ -64,3 +64,10 @@ Ejemplo:
     print("Cargando", end="...")
     print("Listo")
     # Salida: Cargando ... Listo
+
+
+Python con variables que se pueden asignar cualquier valor lo hace de un lenguaje tipado debil. Es decir, se pueden 
+asignar valores distintos a las variables que ya se habian declarado de un tipo en especifico.
+
+
+Para declarar variables en Python se usa el snake_case: mi_dato, nombre_empleado, mi_edad, salario_inicial... etc.

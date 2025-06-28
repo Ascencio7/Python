@@ -1,0 +1,32 @@
+Tablas de Verdad
+
+
+
+1. Negacion --> NOT
+
+Not Verdadero --> Falso
+Not Falso --> Verdadero
+
+
+
+2. Disyuncion --> OR
+Verdadero o Verdadero --> Verdadero
+Verdadero o Falso --> Verdadero
+Falso o Verdadero --> Verdadero
+Falso o Falso --> Falso
+
+
+
+3. Condicional --> Si... entonces
+Verdadero => Verdadero --> Verdadero
+Verdadero => Falso --> Falso
+Falso => Verdadero --> Verdadero
+Falso => Falso --> Verdadero
+
+
+
+4. Conjuncion --> AND
+Verdadero y Verdadero --> Verdadero
+Verdadero y Falso --> Falso
+Falso y Verdadero --> Falso
+Falso y Falso --> Falso
