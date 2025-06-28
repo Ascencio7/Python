@@ -13,8 +13,8 @@ salario = 402.75
 descuento = 78.39
 
 # Variables con datos booleanos
-variableFalse = False
-variableTrue = True
+variable_false = False
+variable_true = True
 
 # Variables declaradas en una sola linea
 name, lastname, alias, edad = "Vladimir", "Ascencio", "VladiDev", 21
@@ -32,7 +32,7 @@ print("\nVariables de tipo Float (decimal)")
 print("\nSalario:", salario, ", Descuento:", descuento)
 
 print("\nVariables de tipo Booleano (true, false)")
-print("\nFalso:", variableFalse, ", Verdad:", variableTrue)
+print("\nFalso:", variable_false, ", Verdad:", variable_true)
 
 print("\nVariables declaradas en una sola linea")
 print(f"\nMi nombre es {name} {lastname}. Tengo {edad} años, y mi alias es {alias}")

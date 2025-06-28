@@ -9,14 +9,14 @@
 """
 
 # funcion para calcular la temperatura Fahrenheit
-def celciusAFahrenheit(celsius):
+def celcius_a_fahrenheit(celsius):
     fahrenheit = (celsius * 9 / 5) + 32 # formula de la conversion
     return fahrenheit # retorna el resultado
 
 # se pide el dato
 celsius = float(input("\nIngresa la temperatura en grados Celsius: "))
 
-fahrenheit = celciusAFahrenheit(celsius) # se llama la funcion
+fahrenheit = celcius_a_fahrenheit(celsius) # se llama la funcion
 fahrenheit = round(fahrenheit, 2) # se redondea el resultado
 
 print(f"\nLa temperatura de {celsius}°C a Fahrenheit es: {fahrenheit}°F") # se imprime el resultado

@@ -36,9 +36,9 @@ print("\n4. Construir un programa que lea un numero entero y determinar si su ul
 # Declarar la variable y pedir su numero
 num = int(input("\nIngresa el numero para ver si su ultimo digito es par o impar: "))
 
-lastDigito = (num // 1) % 10
+last_digito = (num // 1) % 10
 
-if lastDigito % 2 == 0:
+if last_digito % 2 == 0:
     print(f"\nEl ultimo digito de {num} si es un numero par.")
     print("\nFin del programa.")
 else:
@@ -53,11 +53,11 @@ print("\n6. Construir un programa que lea un numero entero y determine si sus do
 # # Declarar la variable y pedir el numero
 num = int(input("\nIngresa el numero entero: "))
 
-primerDigito = (num // 1) % 10 # Para el primer digito
-segundoDigito = (num // 10) % 10 # Para el segundo digito
+primer_digito = (num // 1) % 10 # Para el primer digito
+segundo_digito = (num // 10) % 10 # Para el segundo digito
 # tercerDigito = (num // 100) % 100 # Para el tercer digito
 
-if primerDigito == segundoDigito:
+if primer_digito == segundo_digito:
     print(f"\nLos ultimos dos digitos de {num} son iguales.")
     print("\nFin del programa.")
 else:
@@ -72,12 +72,12 @@ print("\n7. Construir un programa que lea un numero entero y determine si la sum
 # Declarar la variable y pedir el numero
 num = int(input("\nIngresa el numero entero: "))
 
-primerDigito = (num // 1) % 10 # Para el primer digito
-segundoDigito = (num // 10) % 10 # Para el segundo digito
+primer_digito = (num // 1) % 10 # Para el primer digito
+segundo_digito = (num // 10) % 10 # Para el segundo digito
 
-sumaDigitos = primerDigito + segundoDigito
+suma_digitos = primer_digito + segundo_digito
 
-if sumaDigitos == 7:
+if suma_digitos == 7:
     print(f"\nLa suma de los dos ultimos digitos de {num} es igual a 7.")
     print("\nFin del programa.")
 else:
@@ -92,12 +92,12 @@ print("\n8. Construir un programa que lea un numero entero y determine si el res
 # Declarar la variable y pedir el numero
 num = int(input("\nIngresa el numero entero: "))
 
-primerDigito = abs(num) % 10 # Para el primer digito: OTRA FORMA DE HACERLO
-segundoDigito = (abs(num) // 10) % 10 # Para el segundo digito: OTRA FORMA DE HACERLO
+primer_digito = abs(num) % 10 # Para el primer digito: OTRA FORMA DE HACERLO
+segundo_digito = (abs(num) // 10) % 10 # Para el segundo digito: OTRA FORMA DE HACERLO
 
-sumaDigitos = primerDigito + segundoDigito
+suma_digitos = primer_digito + segundo_digito
 
-if sumaDigitos < 10:
+if suma_digitos < 10:
     print(f"\nLa suma de los dos ultimos digitos de {num} es igual a 1.")
     print("\nFin del programa.")
 else:
@@ -130,21 +130,21 @@ print("\n10. Construir un programa que lea dos numeros enteros y determine si el
 num1 = int(input("\nIngresa el primer numero: "))
 num2 = int(input("Ingresa el segundo numero: "))
 
-ultimoDigito = abs(num1) % 10
-penulDigito = (abs(num2) // 10) % 10
+ultimo_digito = abs(num1) % 10
+penul_digito = (abs(num2) // 10) % 10
 
-if (ultimoDigito % 2 == 0) and (penulDigito % 2 != 0):
+if (ultimo_digito % 2 == 0) and (penul_digito % 2 != 0):
     print(f"\nEl ultimo digito del primer numero {num1} es un numero par.")
     print(f"El penultimo digito del segundo numero {num2} es un numero impar.")
     print("\nSe cumplen ambas condiciones.")
     print("\nFin del programa.")
 else:
-    if ultimoDigito % 2 != 0:
+    if ultimo_digito % 2 != 0:
         print(f"\nEl ultimo digito del primer numero {num1} No es un numero par.")
     else:
         print(f"\nEl ultimo digito del primer numero {num1} es un numero par.")
         
-    if penulDigito % 2 == 0:
+    if penul_digito % 2 == 0:
         print(f"\nEl penultimo digito del segundo numero {num2} NO es un numero impar.")
     else:
         print(f"El penultimo digito del segundo numero {num2} es un numero par.")

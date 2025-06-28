@@ -24,14 +24,14 @@ edad = int(input("Ingrese la edad: "))
 salario_mensual = float(input("Ingrese el salario: $"))
 
 # Realizar los calculos
-desRenta = round(salario_mensual * RENTA, 2) # calcular la renta y redondear a 2 decimales
-desAFP =  round(salario_mensual * AFP, 2) # calcular la afp y redondear a 2 decimales
+des_renta = round(salario_mensual * RENTA, 2) # calcular la renta y redondear a 2 decimales
+des_afp =  round(salario_mensual * AFP, 2) # calcular la afp y redondear a 2 decimales
 prest = CUOTA # solo asignar el valor de la constante a la variable
 
 # Luego se calcula el sueldo liquido a recibir con la resta del salario inicial con los descuentos y el prestamo y redondearlo a 2 decimales
-sueldoLiquido = round(salario_mensual - desRenta - desAFP - prest, 2)
+sueldo_liquido = round(salario_mensual - des_renta - des_afp - prest, 2)
 
 # Mostrar los resultado
 print(f"\nResumen del Salario del empleado")
-print(f"\nSueldo a recibir final: ${sueldoLiquido}")
+print(f"\nSueldo a recibir final: ${sueldo_liquido}")
 print("Fin del programa.\n")

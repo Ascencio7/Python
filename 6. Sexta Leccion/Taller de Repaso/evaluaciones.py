@@ -9,27 +9,27 @@ nombre = input("\nIngrese el nombre del estudiante: ")
 
 while(True):
     # Pedir los datos
-    evaUno = float(input("\nIngresa la primer nota: "))
-    evaDos = float(input("Ingresa la segunda nota: "))
-    evaTres = float(input("Ingresa la tercera nota: "))
+    eva_uno = float(input("\nIngresa la primer nota: "))
+    eva_dos = float(input("Ingresa la segunda nota: "))
+    eva_tres = float(input("Ingresa la tercera nota: "))
     
     # Verificar que 10 no lleve decimales
-    if evaUno and evaDos and evaTres == 10 and ".":
+    if eva_uno and eva_dos and eva_tres == 10 and ".":
             print("\nNota invalida. El 10 no debe llevar decimales.")
             continue # si es asi, que vuelva a ingresar los datos
     
     # Si las notas estan entre el rango de 0 y 10 se hace la operacion de sacar el promedio
-    if all(0 <= nota <=10 for nota in [evaUno, evaDos, evaTres]): # otra forma de if para evitar usar 'and' varias veces
+    if all(0 <= nota <=10 for nota in [eva_uno, eva_dos, eva_tres]): # otra forma de if para evitar usar 'and' varias veces
          
-        promedio = (evaUno * 0.30) + (evaDos * 0.30) + (evaTres * 0.40) # no dividir entre la cantidad sino se baja el promedio y reprueba
+        promedio = (eva_uno * 0.30) + (eva_dos * 0.30) + (eva_tres * 0.40) # no dividir entre la cantidad sino se baja el promedio y reprueba
         promedio = round(promedio, 2) # redondear el promedio a 2 decimales
 
         # imprimir los resultados
         print("\nResultados:")
         print(f"\nEstudiante: {nombre}")
-        print(f"Primera Evaluacion: {evaUno}")
-        print(f"Segunda Evaluacion: {evaDos}")
-        print(f"Tercera Evaluacion: {evaTres}")
+        print(f"Primera Evaluacion: {eva_uno}")
+        print(f"Segunda Evaluacion: {eva_dos}")
+        print(f"Tercera Evaluacion: {eva_tres}")
         print(f"Promedio Final: {promedio}")
     
         # Verificar si el estudiante aprobo o reprobo el modulo

@@ -10,7 +10,7 @@ import msvcrt # Solo para Windows, da funciones para manejar la entrada del tecl
     Y retornara: la contrasena ingresada por el usuario.
 """
 
-def tenerContra():
+def tener_contra():
     print("Contrasena: ", end='', flush=True) # Imprime el mensaje sin saltos de lineas
     password = [] # Una lista para guardar los caracteres de la contra
     while True:
@@ -51,7 +51,7 @@ def login(usuario, password):
 print("\nATLAS CORP | INICIAR SESION")
 
 usuario = input("\nUsuario: ") # pedir el usuario
-password = tenerContra() # se llama la funcion para obtener la contra
+password = tener_contra() # se llama la funcion para obtener la contra
 
 # Llamar la funcion
 login(usuario, password) # se verifica el inicio de sesion

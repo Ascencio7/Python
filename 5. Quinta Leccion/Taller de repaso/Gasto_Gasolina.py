@@ -13,7 +13,7 @@
     
 """
 
-def gastoGasolina(distancia, consumo):
+def gasto_gasolina(distancia, consumo):
     gasto = (distancia / 100) * consumo # formula general
     return gasto # retorna el gasto calculado
 
@@ -21,7 +21,7 @@ def gastoGasolina(distancia, consumo):
 distancia = float(input("\nIngresa la distancia del viaje en km: "))
 consumo = float(input("Ingresa el consumo de gasolina en litros: "))
 
-gasto = gastoGasolina(distancia, consumo) # se llama a la funcion y se pasan los argumentos
+gasto = gasto_gasolina(distancia, consumo) # se llama a la funcion y se pasan los argumentos
 gasto = round(gasto, 2) # se redondea a 2 decimales
 
 print(f"\nPara viajes de {distancia} km, se requieren {gasto} litros de gasolina.") # imprimir el resultado final

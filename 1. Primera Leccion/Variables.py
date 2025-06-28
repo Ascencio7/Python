@@ -32,14 +32,14 @@ print(v2)
 # 7. Encontrar una subcadena dentro de otra cadena
 var1 = "Unamano"
 var2 = "ano"
-buscar_Cadena = var1.find(var2)
-print(buscar_Cadena) # Dara el numero 4 porque busca la primera letra y aca se cuenta la primera
+buscar_cadena = var1.find(var2)
+print(buscar_cadena) # Dara el numero 4 porque busca la primera letra y aca se cuenta la primera
 # posicion 0 hasta n.
 
 # 7.1 Mostrar la palabra que se quiere buscar
 var1 = "Unamano"
-extraer_Cadena = var1[3:7]
-print(extraer_Cadena)
+extraer_cadena = var1[3:7]
+print(extraer_cadena)
 
 # 8. Numeros complejos
 num1 = 7 + 5j
