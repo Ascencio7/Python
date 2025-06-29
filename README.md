@@ -16,7 +16,7 @@ El repositorio contiene teoría y ejemplos sencillos para entender los conceptos
 ✅ Buenas prácticas con comentarios para facilitar el aprendizaje
 
 
---
+---
 
 ## 💡 ¿Qué se encontrara aquí?
 
@@ -25,14 +25,14 @@ El repositorio contiene teoría y ejemplos sencillos para entender los conceptos
 - Ejercicios relacionados con cálculos de notas, promedio de evaluaciones y otros ejemplos útiles.
 
 
---
+---
 
 ## 🎯 Propósito
 
 Este proyecto está pensado como práctica para aprender Python de forma clara y comentada
 
 
---
+---
 
 ## ✨ Autor
 Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
