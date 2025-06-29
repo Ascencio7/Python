@@ -1,43 +1,37 @@
 <div align="left">🔴🟡🟢</div>
+
 <br>
+
 ## 🐍 Proyecto Python Básico
-Practica de python personal
+
+**Práctica personal de Python para reforzar fundamentos de programación.**
 
 <picture>
   <img align="right" src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif?raw=true" width="200"/>
 </picture>
 
-El repositorio contiene teoría y ejemplos sencillos para entender los conceptos básicos de programación
+Este repositorio contiene **teoría y ejemplos comentados** que facilitan la comprensión de los conceptos básicos de programación en Python de forma clara y práctica.
 
 ✅ Entrada y salida de datos  
 ✅ Uso de variables y constantes  
-✅ Cálculos con operadores aritméticos  
+✅ Operadores aritméticos y cálculos  
 ✅ Estructuras de control (condicionales y bucles)  
-✅ Buenas prácticas con comentarios para facilitar el aprendizaje
-
+✅ Buenas prácticas con comentarios para cada línea de código
 
 ---
 
-## 💡 ¿Qué se encontrara aquí?
+## 💡 ¿Qué encontrarás aquí?
 
-- Ejercicios comentados paso a paso para que se comprenda **qué hace cada línea**.
-- Código ordenado y fácil de entender.
-- Ejercicios relacionados con cálculos de notas, promedio de evaluaciones y otros ejemplos útiles.
-
+- **Ejercicios comentados paso a paso** para comprender qué hace cada línea.
+- Código limpio, ordenado y fácil de entender para tus estudios.
+- Ejercicios como cálculo de promedios de evaluaciones, ingresos de datos y más ejemplos útiles para tus prácticas.
 
 ---
 
 ## 🎯 Propósito
 
-Este proyecto está pensado como práctica para aprender Python de forma clara y comentada
+Este proyecto está diseñado como práctica de **aprendizaje personal de Python**, enfocado en entender la lógica y sintaxis básica antes de avanzar a proyectos más complejos.
 
+Si eres estudiante o deseas reforzar lógica de programación, este proyecto es ideal para ti.
 
 ---
-
-## ✨ Autor
-Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
-
-¡Gracias por visitar este proyecto básico :)! 😄
-
-
---
