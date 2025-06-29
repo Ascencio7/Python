@@ -23,8 +23,8 @@ Este repositorio contiene **teoría y ejemplos comentados** que facilitan la com
 ## 💡 ¿Qué encontrarás aquí?
 
 - **Ejercicios comentados paso a paso** para comprender qué hace cada línea.
-- Código limpio, ordenado y fácil de entender para tus estudios.
-- Ejercicios como cálculo de promedios de evaluaciones, ingresos de datos y más ejemplos útiles para tus prácticas.
+- Código limpio, ordenado y fácil de entender.
+- Ejercicios como cálculo de promedios de evaluaciones, ingresos de datos y más ejemplos útiles.
 
 ---
 
@@ -32,11 +32,44 @@ Este repositorio contiene **teoría y ejemplos comentados** que facilitan la com
 
 Este proyecto está diseñado como práctica de **aprendizaje personal de Python**, enfocado en entender la lógica y sintaxis básica antes de avanzar a proyectos más complejos.
 
-Si eres estudiante o deseas reforzar lógica de programación, este proyecto es ideal para ti.
-
 ---
 
 ## ✨ Autor
 
 Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
 ¡Gracias por visitar este proyecto! 🐍😄
+
+
+---
+
+<h3 align="left">🔎 Contacts</h3>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="mailto:ascencio3.1417@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://skillicons.dev/icons?i=gmail" width="50" alt="Gmail" title="Gmail" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.instagram.com/vl_ascencio" target="_blank" rel="noopener noreferrer">
+        <img src="https://skillicons.dev/icons?i=instagram" width="50" alt="Instagram" title="Instagram" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://discord.com/users/vl_ascencio" target="_blank" rel="noopener noreferrer">
+        <img src="https://skillicons.dev/icons?i=discord" width="50" alt="Discord" title="Discord" />
+      </a>
+    </td>
+    <!--
+    <td align="center">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <img src="https://skillicons.dev/icons?i=twitter" width="50" alt="Twitter" title="Twitter" />
+      </a>
+    </td>
+    -->
+    <td align="center">
+      <a href="https://github.com/Ascencio7" target="_blank" rel="noopener noreferrer">
+        <img src="https://skillicons.dev/icons?i=github" width="50" alt="GitHub" title="GitHub" />
+      </a>
+    </td>
+  </tr>
