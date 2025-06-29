@@ -1,6 +1,6 @@
 <div align="left">🔴🟡🟢</div>
 <br>
-# 🐍 Proyecto Python Básico
+## 🐍 Proyecto Python Básico
 Practica de python personal
 
 <picture>
