@@ -35,3 +35,8 @@ Este proyecto está diseñado como práctica de **aprendizaje personal de Python
 Si eres estudiante o deseas reforzar lógica de programación, este proyecto es ideal para ti.
 
 ---
+
+## ✨ Autor
+
+Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
+¡Gracias por visitar este proyecto! 🐍😄
