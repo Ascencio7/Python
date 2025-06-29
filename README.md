@@ -73,7 +73,9 @@ Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
       </a>
     </td>
   </tr>
+</table>
 
+<br><br>
 
   ---
 
@@ -81,4 +83,3 @@ Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" alt="footer waving" />
 </div>
-
