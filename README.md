@@ -7,7 +7,7 @@
 **Práctica personal de Python para reforzar fundamentos de programación.**
 
 <picture>
-  <img align="right" src="https://i.imgur.com/zhGcMS3.gif?raw=true" width="200"/>
+  <img align="right" src="https://cdna.artstation.com/p/assets/images/images/052/141/832/original/johan-cediel-rodriguez-pixel-art-take-008.gif?1659036879?raw=true" width="200"/>
 </picture>
 
 
