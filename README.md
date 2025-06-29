@@ -7,8 +7,9 @@
 **Práctica personal de Python para reforzar fundamentos de programación.**
 
 <picture>
-  <img align="right" src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif?raw=true" width="200"/>
+  <img align="right" src="https://i.imgur.com/zhGcMS3.gif?raw=true" width="200"/>
 </picture>
+
 
 Este repositorio contiene **teoría y ejemplos comentados** que facilitan la comprensión de los conceptos básicos de programación en Python de forma clara y práctica.
 
