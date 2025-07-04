@@ -1,0 +1,21 @@
+Los Diccionarios
+
+Son colecciones DESORDENADAS de PARES CLAVE-VALOR.
+
+Las claves son unicas y se utilizan para acceder a los valores correspondientes. Se definen utilizando llaves.
+
+Ejemplo:
+
+    mi_dic = {
+        'Nombre': [],
+        'Edad': [],
+        'Ciudad': []
+    }
+
+    mi_otro_dic = {
+        'Universidad': 'ITCA',
+        'Modalidad': 'Presencial',
+        'Turno': 'Diurna',
+        'Carrera': 'Ingenieria en Desarrollo de Software'
+        'Año': 3
+    }

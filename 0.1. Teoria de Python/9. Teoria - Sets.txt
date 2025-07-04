@@ -1,0 +1,8 @@
+Los Sets
+
+Son colecciones NO ORDENADAS y MUTABLES de ELEMENTOS UNICOS. 
+NO PERMITEN DUPLICADOS y se definen utilizando llaves o la funcion 'set()'.
+
+Ejemplo:
+
+        mi_set = {1, 2, 3, 'Vladimir', 'San Salvador'}

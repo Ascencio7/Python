@@ -1,0 +1,8 @@
+Las Listas
+
+Son colecciones ORDENADAS y MUTABLES de elementos. Pueden contener elementos de diferentes 
+tipos y se definen utilizando corchetes [].
+
+Ejemplo:
+
+        mi_lista = [1, 45.34, 'Hola Mundo', True, False, (89 * 45)]

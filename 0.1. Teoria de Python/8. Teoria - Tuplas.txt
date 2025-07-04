@@ -1,0 +1,8 @@
+Las Tuplas
+
+Son colecciones ORDENADAS e INMUTABLES de elementos. Al igual que las listas, pueden contener diferentes tipos de datos,
+pero NO SE PUEDEN MODIFICAR UNA VEZ CREADAS. Se definen utilizando los parentesis ().
+
+Ejemplo:
+
+        mi_tupla = (1, 34.44, 'Carne', True, False, 'Hola Mundo')
