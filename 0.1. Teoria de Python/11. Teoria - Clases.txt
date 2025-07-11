@@ -1,0 +1,55 @@
+Que son las clases?
+
+Una clase es un molde o plantilla para crear objetos.
+
+Los objetos son cosas con datos (atributos) y acciones (metodos).
+
+Permite organizar el codigo de forma ordenada y reutilizable.
+
+
+Ejemplo:
+
+    Se requiere representar autos en el programa:
+
+        Una clase es el plano de un auto.
+        Un objeto es un auto real que se crea usando ese plano.
+
+    Cada auto (objeto) tendra:
+
+        Color
+        Marca
+        Velocidad
+        Metodos como acelerar() y frenar()
+
+
+    Ejemplo en Python:
+
+            # Definicion de la clase
+            class Auto:
+                def __init__(self, marca, color):
+                    self.marca = marca      # Atributo de marca
+                    self.color = color      # Atributo de color
+                    self.velocidad = 0      # Atributo de velocidad inicial del auto
+
+                def acelerar(self, incremento):
+                    self.velocidad += incremento
+                    print(f'Velocidad actual: {self.velocidad} km/h')
+
+                def frenar(self):
+                    self.velocidad = 0
+                    print('El auto se ha detenido con exito.')
+
+            
+            # Crear el objeto de la clase Auto
+            mi_auto = Auto('Toyota', 'Negro')
+
+            # Usar los metodos del objeto
+            mi_auto.acelerar(30)
+            mi_auto.frenar()
+
+
+
+Clase --> Plano
+Objeto --> Instancia de la clase (cosa creada con ese plano)
+Atributos --> Datos del objeto
+Metodos --> Acciones del objeto
