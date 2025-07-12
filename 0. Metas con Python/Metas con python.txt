@@ -1,26 +1,30 @@
-🧠 FASE 1: Fundamentos Básicos
+🧠 Fase 1: Fundamentos Básicos
 
 Objetivo: Familiarizarte con la sintaxis y lógica de Python.
 
 Temas:
 
-Instalación de Python y uso de IDLE / VS Code
+    Instalación de Python y uso de IDLE / VS Code
 
-Variables, tipos de datos (int, float, str, bool)
+    Variables, tipos de datos (int, float, str, bool)
 
-Operadores aritméticos y lógicos
+    peradores aritméticos y lógicos
 
-Condicionales (if, elif, else)
+    Condicionales (if, elif, else)
 
-Bucles (for, while)
+    Bucles (for, while)
 
-Funciones (def, argumentos, return)
+    Funciones (def, argumentos, return)
 
-Listas y diccionarios (acceso, modificación, métodos básicos)
+    Listas y diccionarios (acceso, modificación, métodos básicos)
+
+    Funciones
+
+    Clases
+
 
 Actividades:
 
-✅ Crea un menú simple con opciones
 ✅ Calculadora básica
 ✅ Juego del número secreto
 ✅ Conversor de unidades (metros a pies, °C a °F, etc.)
