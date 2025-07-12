@@ -1,0 +1,50 @@
+¿Qué son los módulos en Python?
+
+Es un archivo .py que contiene código Python --> Funciones, variables, clases que se pueden importar y reutilizar en otros archivos.
+
+
+¿Para qué sirven?
+
+Organizar el código en partes más pequeñas y ordenadas.
+Reutilizar funciones y clases sin volver a escribirlas.
+Aprovechar funcionalidades de módulos de la librería estándar (como math, random, datetime, entre otras)
+
+¿Cómo se usan?
+
+1. Importar un módulo completo:
+
+    import math
+
+    print(math.sqrt(25))
+
+
+2. Importar funciones específicas de un módulo
+
+    from math import sqrt
+
+    print(sqrt(35))
+
+
+3. Crear y usar propios módulos
+
+Si se tiene un archivo, por ejemplo, 'mis_funciones.py':
+
+    # mis_funciones.py
+    def dividir(num_1, num_2):
+        try:
+            resultado = round(num_1 / num_2, 2)
+            return resultado
+        except ZeroDivisionError:
+             print("\nNo se puede dividir por cero\n")
+             return None
+    
+
+Se puede importarlo en otro archivo:
+
+        import mis_funciones
+
+        mis_funciones.dividir(10, 2)
+
+
+Los módulos en Python permiten reutilizar y organizar código. Se pueden importar módulos propios o de la
+librería estándar. Y son clave para proyectos grandes y mantener un código limpio.
