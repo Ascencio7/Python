@@ -5,18 +5,27 @@
 
 class Vehiculo:
     def __init__(self, marca, modelo, color, anio, capacidad):
-        self.info = f'\nMarca: {marca}\nModelo: {modelo}\nColor: {color}\nAño: {anio}\nCapacidad: {capacidad} personas\n'
-        self.__nombre = marca
-               
+        # Asignar todos los parámetros a atributos privados
+        self.__marca = marca
+        self.__modelo = modelo
+        self.__color = color
+        self.__anio = anio
+        self.__capacidad = capacidad
+        
+        # Construir la cadena de información usando los atributos de la instancia
+        self.info = f'\nMarca: {self.__marca}\nModelo: {self.__modelo}\nColor: {self.__color}\nAño: {self.__anio}\nCapacidad: {self.__capacidad} personas\n'     
     
     def get_nombre(self):
         return self.__nombre
     
     def conducir(self):
         return f'{self.__nombre} ha arrancado.\n'
-    
+
+
+# Instanciar la variable a la clase y asignar sus atributos
 carro = Vehiculo('Lamborghini', 'Huracan', 'Negro', 2024, 2)
 
+# Imprimir los resultados llamando a los metodos
 print(carro.info)
 print(carro.get_nombre())
 print(carro.conducir())
