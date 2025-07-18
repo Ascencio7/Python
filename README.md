@@ -17,7 +17,7 @@ Este repositorio contiene **teoría y ejemplos comentados** que facilitan la com
 ✅ Uso de variables y constantes  
 ✅ Operadores aritméticos y cálculos  
 ✅ Estructuras de control (condicionales y bucles)  
-✅ Generadores
+✅ Generadores <br>
 ✅ POO: Clases, encapsulamiento, herencia, polimorfismo
 ✅ Buenas prácticas con comentarios para cada línea de código
 
