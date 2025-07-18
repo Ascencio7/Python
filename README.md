@@ -17,6 +17,8 @@ Este repositorio contiene **teoría y ejemplos comentados** que facilitan la com
 ✅ Uso de variables y constantes  
 ✅ Operadores aritméticos y cálculos  
 ✅ Estructuras de control (condicionales y bucles)  
+✅ Generadores
+✅ POO: Clases, encapsulamiento, herencia, polimorfismo
 ✅ Buenas prácticas con comentarios para cada línea de código
 
 ---
@@ -26,6 +28,7 @@ Este repositorio contiene **teoría y ejemplos comentados** que facilitan la com
 - **Ejercicios comentados paso a paso** para comprender qué hace cada línea.
 - Código limpio, ordenado y fácil de entender.
 - Ejercicios como cálculo de promedios de evaluaciones, ingresos de datos y más ejemplos útiles.
+- Primeros pasos en la Programación Orientada a Objetos **POO**.
 
 ---
 
@@ -38,6 +41,7 @@ Este proyecto está diseñado como práctica de **aprendizaje personal de Python
 ## ✨ Autor
 
 Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀
+
 ¡Gracias por visitar este proyecto! 🐍😄
 
 
