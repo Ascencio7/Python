@@ -1,0 +1,8 @@
+Un generador se puede definir como una estructura funcional que posibilita la extracción de valores de una función que tienen alta
+utilidad cuando se trata de conjuntos de datos. Cuando una función retorna un conjunto de valores, lo hace como dice su nombre, 
+devolviendo todo el conjunto de valores para que sean procesados en la función que la invoca.
+
+Los generadores ofrecen la posibilidad de extraer un conjunto de valores pero cada valor lo retorna de forma independiente, dejando el 
+proceso de la función en espera, mientras se realiza alguna operación con dicho valor específico. Esto permite resolver algo que parecía
+imposible hasta el momento como es trabajar con conjunto de datos infinitos. Cada que un generador extrae un valor, la función queda en espera,
+en "estado suspendido" o "pausado".
