@@ -18,7 +18,7 @@ Este repositorio contiene **teoría y ejemplos comentados** que facilitan la com
 ✅ Operadores aritméticos y cálculos  
 ✅ Estructuras de control (condicionales y bucles)  
 ✅ Generadores <br>
-✅ POO: Clases, encapsulamiento, herencia, polimorfismo
+✅ POO: Clases, encapsulamiento, herencia, polimorfismo <br>
 ✅ Buenas prácticas con comentarios para cada línea de código
 
 ---
